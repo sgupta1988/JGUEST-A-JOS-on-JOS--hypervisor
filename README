@@ -1,23 +1,14 @@
-    Submission Group ID: hw-shagupta
-    Submission by Ashish Tanwer (109347053) and Shashank Gupta (109079897)
-	This commit contains guest with file system and networking working
+Introduction
+JGUEST-A basic paravirtual hypervisor with support for running filesystem and networking in guest operating system. Through this I ran MIT JOS operating system as guest on MIT JOS operating system as host. I used bochs x86 emulator, which has support for Intel's VT-x hardware support. 
 
+ON GUEST OPERATING SYSTEM
+I was able to perform file related operations like creating directories and files, writing to files and also was able to serve these files to outside work by running HTTP server.
 
-For Netwoking Part ::
+I was also also running HTTP server on GUEST operating system and was able to serve HTTP pages to outside world
 
-First we were not receiving timer interrupt in the guest which is required for running network server. 
-So we fixed that.
-
-Next we implemented networking in HOST which includes e1000 device driver interfacing, running core network server enviroment with LWIP stack , and http web server over it.
-
-Same things we implemented in GUEST.
-
-Also we are copying each packet received by host to guest.
-Since guest also has its own tcp/ip stack and network server running, it will filter out the packet that is not destined for guest.
-
-We Are also attaching video with out commit.
-
-All steps are shown here::
-Video file::
-Virtualization.MP4
-
+Implemantation Overview:
+1. bootstrapping a guest OS
+2. Programming extended page tables
+3. emulating privileged instructions,
+4. Using Hypercalls to implement hard drive emulation over a disk image file
+5. Using Hypercalls Network driver emulation over Network Driver E000 NIC
