@@ -1,0 +1,226 @@
+Binary file obj/net/testinput matches
+obj/net/testinput.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+obj/net/ns.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/net/ns matches
+obj/net/testoutput.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/net/testoutput matches
+Binary file obj/kern/kernel matches
+Binary file obj/kern/kernel.img matches
+Binary file obj/fs/fs.img matches
+Binary file obj/fs/fs matches
+obj/fs/fs.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/fs/clean-fs.img matches
+obj/user/echosrv.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+obj/user/testkbd.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/lsfd matches
+Binary file obj/user/testpiperace matches
+Binary file obj/user/faultread.debug matches
+obj/user/testfile.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/num matches
+obj/user/testpteshare.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/testkbd.debug matches
+Binary file obj/user/initsh.debug matches
+Binary file obj/user/faultalloc matches
+obj/user/cat.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/testpiperace2.debug matches
+Binary file obj/user/faultdie.debug matches
+Binary file obj/user/testmalloc matches
+Binary file obj/user/primes.debug matches
+obj/user/testpiperace2.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+obj/user/testfdsharing.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/testmalloc.debug matches
+Binary file obj/user/primespipe.debug matches
+Binary file obj/user/testpipe.debug matches
+obj/user/hello.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/echotest matches
+obj/user/num.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/testshell matches
+Binary file obj/user/faultalloc.debug matches
+Binary file obj/user/testpiperace2 matches
+Binary file obj/user/testshell.debug matches
+Binary file obj/user/buggyhello matches
+Binary file obj/user/writemotd matches
+obj/user/lsfd.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/forktree matches
+Binary file obj/user/primespipe matches
+obj/user/sh.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/cat.debug matches
+Binary file obj/user/testfdsharing.debug matches
+obj/user/pingpong.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/evilhello matches
+Binary file obj/user/echo matches
+Binary file obj/user/faultallocbad.debug matches
+obj/user/faultdie.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/testtime matches
+Binary file obj/user/pingpong matches
+Binary file obj/user/testfdsharing matches
+Binary file obj/user/writemotd.debug matches
+obj/user/testshell.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/testfile matches
+Binary file obj/user/echotest.debug matches
+obj/user/dumbfork.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/sh.debug matches
+Binary file obj/user/faultdie matches
+obj/user/faultallocbad.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/testpteshare.debug matches
+Binary file obj/user/cat matches
+Binary file obj/user/initsh matches
+obj/user/initsh.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/testpteshare matches
+obj/user/testpiperace.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/faultallocbad matches
+Binary file obj/user/echo.debug matches
+obj/user/init.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+obj/user/httpd.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/primes matches
+obj/user/echotest.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/httpd.debug matches
+Binary file obj/user/testtime.debug matches
+Binary file obj/user/num.debug matches
+Binary file obj/user/sh matches
+obj/user/vmm.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/faultread matches
+obj/user/sendpage.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+obj/user/idle.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+obj/user/icode.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/idle.debug matches
+Binary file obj/user/icode.debug matches
+Binary file obj/user/dumbfork matches
+Binary file obj/user/sendpage.debug matches
+Binary file obj/user/ls matches
+Binary file obj/user/forktree.debug matches
+Binary file obj/user/hello.debug matches
+obj/user/echo.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/echosrv matches
+Binary file obj/user/init matches
+Binary file obj/user/ls.debug matches
+Binary file obj/user/testkbd matches
+obj/user/writemotd.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+obj/user/faultread.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/idle matches
+Binary file obj/user/echosrv.debug matches
+obj/user/ls.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+obj/user/faultalloc.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/sendpage matches
+Binary file obj/user/dumbfork.debug matches
+Binary file obj/user/buggyhello.debug matches
+obj/user/primes.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/evilhello.debug matches
+Binary file obj/user/testpipe matches
+Binary file obj/user/icode matches
+Binary file obj/user/lsfd.debug matches
+Binary file obj/user/init.debug matches
+obj/user/forktree.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/vmm.debug matches
+obj/user/primespipe.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/hello matches
+Binary file obj/user/vmm matches
+obj/user/testmalloc.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/testpiperace.debug matches
+obj/user/evilhello.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/testfile.debug matches
+obj/user/buggyhello.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+obj/user/testpipe.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/user/pingpong.debug matches
+Binary file obj/user/httpd matches
+obj/user/testtime.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file obj/lib/libjos.a matches
+Binary file obj/lib/panic.o matches
+Binary file bochs.out matches
+Binary file vmm/guest/obj/net/testinput matches
+vmm/guest/obj/net/testinput.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+vmm/guest/obj/net/ns.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file vmm/guest/obj/net/ns matches
+vmm/guest/obj/net/testoutput.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file vmm/guest/obj/net/testoutput matches
+Binary file vmm/guest/obj/kern/kernel matches
+Binary file vmm/guest/obj/fs/fs.img matches
+Binary file vmm/guest/obj/fs/fs matches
+vmm/guest/obj/fs/fs.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file vmm/guest/obj/fs/clean-fs.img matches
+vmm/guest/obj/user/echosrv.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+vmm/guest/obj/user/testkbd.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file vmm/guest/obj/user/lsfd matches
+Binary file vmm/guest/obj/user/testpiperace matches
+vmm/guest/obj/user/testfile.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file vmm/guest/obj/user/num matches
+vmm/guest/obj/user/testpteshare.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file vmm/guest/obj/user/testkbd.debug matches
+vmm/guest/obj/user/cat.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file vmm/guest/obj/user/testpiperace2.debug matches
+Binary file vmm/guest/obj/user/testmalloc matches
+Binary file vmm/guest/obj/user/primes.debug matches
+vmm/guest/obj/user/testpiperace2.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+vmm/guest/obj/user/testfdsharing.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file vmm/guest/obj/user/testmalloc.debug matches
+Binary file vmm/guest/obj/user/primespipe.debug matches
+Binary file vmm/guest/obj/user/testpipe.debug matches
+vmm/guest/obj/user/hello.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file vmm/guest/obj/user/echotest matches
+vmm/guest/obj/user/num.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file vmm/guest/obj/user/testshell matches
+Binary file vmm/guest/obj/user/testpiperace2 matches
+Binary file vmm/guest/obj/user/testshell.debug matches
+Binary file vmm/guest/obj/user/writemotd matches
+vmm/guest/obj/user/lsfd.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file vmm/guest/obj/user/forktree matches
+Binary file vmm/guest/obj/user/primespipe matches
+vmm/guest/obj/user/sh.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file vmm/guest/obj/user/cat.debug matches
+Binary file vmm/guest/obj/user/testfdsharing.debug matches
+Binary file vmm/guest/obj/user/echo matches
+Binary file vmm/guest/obj/user/testtime matches
+Binary file vmm/guest/obj/user/testfdsharing matches
+Binary file vmm/guest/obj/user/writemotd.debug matches
+vmm/guest/obj/user/testshell.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file vmm/guest/obj/user/testfile matches
+Binary file vmm/guest/obj/user/echotest.debug matches
+Binary file vmm/guest/obj/user/sh.debug matches
+Binary file vmm/guest/obj/user/testpteshare.debug matches
+Binary file vmm/guest/obj/user/cat matches
+Binary file vmm/guest/obj/user/testpteshare matches
+vmm/guest/obj/user/testpiperace.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file vmm/guest/obj/user/echo.debug matches
+vmm/guest/obj/user/init.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+vmm/guest/obj/user/httpd.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file vmm/guest/obj/user/primes matches
+vmm/guest/obj/user/echotest.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file vmm/guest/obj/user/httpd.debug matches
+Binary file vmm/guest/obj/user/testtime.debug matches
+Binary file vmm/guest/obj/user/num.debug matches
+Binary file vmm/guest/obj/user/sh matches
+vmm/guest/obj/user/idle.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+vmm/guest/obj/user/icode.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file vmm/guest/obj/user/idle.debug matches
+Binary file vmm/guest/obj/user/icode.debug matches
+Binary file vmm/guest/obj/user/ls matches
+Binary file vmm/guest/obj/user/forktree.debug matches
+Binary file vmm/guest/obj/user/hello.debug matches
+vmm/guest/obj/user/echo.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file vmm/guest/obj/user/echosrv matches
+Binary file vmm/guest/obj/user/init matches
+Binary file vmm/guest/obj/user/ls.debug matches
+Binary file vmm/guest/obj/user/testkbd matches
+vmm/guest/obj/user/writemotd.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file vmm/guest/obj/user/idle matches
+Binary file vmm/guest/obj/user/echosrv.debug matches
+vmm/guest/obj/user/ls.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+vmm/guest/obj/user/primes.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file vmm/guest/obj/user/testpipe matches
+Binary file vmm/guest/obj/user/icode matches
+Binary file vmm/guest/obj/user/lsfd.debug matches
+Binary file vmm/guest/obj/user/init.debug matches
+vmm/guest/obj/user/forktree.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+vmm/guest/obj/user/primespipe.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file vmm/guest/obj/user/hello matches
+vmm/guest/obj/user/testmalloc.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file vmm/guest/obj/user/testpiperace.debug matches
+Binary file vmm/guest/obj/user/testfile.debug matches
+vmm/guest/obj/user/testpipe.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file vmm/guest/obj/user/httpd matches
+vmm/guest/obj/user/testtime.asm:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file vmm/guest/obj/lib/libjos.a matches
+Binary file vmm/guest/obj/lib/panic.o matches
+vmm/guest/lib/panic.c:    cprintf("[%08x] user panic in %s at %s:%d: ",
+lib/panic.c:    cprintf("[%08x] user panic in %s at %s:%d: ",
+Binary file .bochs.out.swp matches

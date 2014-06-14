@@ -1,0 +1,12 @@
+           redir tcp 26003 7
+           redir X
+           redir tcp 26004 80
+           redir X
+           redir udp 26003 7 
+           redir X
+           redir tcp 26005 10.0.2.17:7
+           redir X
+           redir tcp 26006 10.0.2.17:80
+           redir X
+           redir udp 26005 10.0.2.17:7 
+           redir X

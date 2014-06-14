@@ -1,0 +1,74 @@
+inc/env.h:62:                                // or root of extended page tables in guest mode.
+obj/net/testinput.asm:4510:    panic("ipc_recv not implemented in VM guest");
+obj/net/testinput.asm:4536:    panic("ipc_send not implemented in VM guest");
+obj/net/ns.asm:5255:    panic("ipc_recv not implemented in VM guest");
+obj/net/ns.asm:5281:    panic("ipc_send not implemented in VM guest");
+obj/net/testoutput.asm:4117:    panic("ipc_recv not implemented in VM guest");
+obj/net/testoutput.asm:4143:    panic("ipc_send not implemented in VM guest");
+obj/boot/boot.asm:2:vmm/guest/obj/boot/boot.out:     file format elf32-i386
+obj/boot/boot.d:1:vmm/guest/obj/boot/boot.o: vmm/guest/boot/boot.S inc/mmu.h
+obj/fs/fs.asm:7784:    panic("ipc_recv not implemented in VM guest");
+obj/fs/fs.asm:7810:    panic("ipc_send not implemented in VM guest");
+obj/user/echosrv.asm:6709:    panic("ipc_recv not implemented in VM guest");
+obj/user/echosrv.asm:6735:    panic("ipc_send not implemented in VM guest");
+obj/user/testkbd.asm:6951:    panic("ipc_recv not implemented in VM guest");
+obj/user/testkbd.asm:6977:    panic("ipc_send not implemented in VM guest");
+obj/user/testfile.asm:3984:    panic("ipc_recv not implemented in VM guest");
+obj/user/testfile.asm:4010:    panic("ipc_send not implemented in VM guest");
+obj/user/testpteshare.asm:8460:    panic("ipc_recv not implemented in VM guest");
+obj/user/testpteshare.asm:8486:    panic("ipc_send not implemented in VM guest");
+obj/user/cat.asm:6858:    panic("ipc_recv not implemented in VM guest");
+obj/user/cat.asm:6884:    panic("ipc_send not implemented in VM guest");
+obj/user/testpiperace2.asm:7455:    panic("ipc_recv not implemented in VM guest");
+obj/user/testpiperace2.asm:7481:    panic("ipc_send not implemented in VM guest");
+obj/user/testfdsharing.asm:7711:    panic("ipc_recv not implemented in VM guest");
+obj/user/testfdsharing.asm:7737:    panic("ipc_send not implemented in VM guest");
+obj/user/hello.asm:6435:    panic("ipc_recv not implemented in VM guest");
+obj/user/hello.asm:6461:    panic("ipc_send not implemented in VM guest");
+obj/user/num.asm:6904:    panic("ipc_recv not implemented in VM guest");
+obj/user/num.asm:6930:    panic("ipc_send not implemented in VM guest");
+obj/user/lsfd.asm:7151:    panic("ipc_recv not implemented in VM guest");
+obj/user/lsfd.asm:7177:    panic("ipc_send not implemented in VM guest");
+obj/user/sh.asm:10297:    panic("ipc_recv not implemented in VM guest");
+obj/user/sh.asm:10323:    panic("ipc_send not implemented in VM guest");
+obj/user/testshell.asm:8756:    panic("ipc_recv not implemented in VM guest");
+obj/user/testshell.asm:8782:    panic("ipc_send not implemented in VM guest");
+obj/user/testpiperace.asm:4039:    panic("ipc_recv not implemented in VM guest");
+obj/user/testpiperace.asm:4065:    panic("ipc_send not implemented in VM guest");
+obj/user/init.asm:7792:    panic("ipc_recv not implemented in VM guest");
+obj/user/init.asm:7818:    panic("ipc_send not implemented in VM guest");
+obj/user/httpd.asm:7950:    panic("ipc_recv not implemented in VM guest");
+obj/user/httpd.asm:7976:    panic("ipc_send not implemented in VM guest");
+obj/user/echotest.asm:6661:    panic("ipc_recv not implemented in VM guest");
+obj/user/echotest.asm:6687:    panic("ipc_send not implemented in VM guest");
+obj/user/idle.asm:6430:    panic("ipc_recv not implemented in VM guest");
+obj/user/idle.asm:6456:    panic("ipc_send not implemented in VM guest");
+obj/user/icode.asm:7570:    panic("ipc_recv not implemented in VM guest");
+obj/user/icode.asm:7596:    panic("ipc_send not implemented in VM guest");
+obj/user/echo.asm:6505:    panic("ipc_recv not implemented in VM guest");
+obj/user/echo.asm:6531:    panic("ipc_send not implemented in VM guest");
+obj/user/writemotd.asm:6663:    panic("ipc_recv not implemented in VM guest");
+obj/user/writemotd.asm:6689:    panic("ipc_send not implemented in VM guest");
+obj/user/ls.asm:7420:    panic("ipc_recv not implemented in VM guest");
+obj/user/ls.asm:7446:    panic("ipc_send not implemented in VM guest");
+obj/user/primes.asm:3925:    panic("ipc_recv not implemented in VM guest");
+obj/user/primes.asm:3951:    panic("ipc_send not implemented in VM guest");
+obj/user/forktree.asm:7308:    panic("ipc_recv not implemented in VM guest");
+obj/user/forktree.asm:7334:    panic("ipc_send not implemented in VM guest");
+obj/user/primespipe.asm:7538:    panic("ipc_recv not implemented in VM guest");
+obj/user/primespipe.asm:7564:    panic("ipc_send not implemented in VM guest");
+obj/user/testmalloc.asm:7482:    panic("ipc_recv not implemented in VM guest");
+obj/user/testmalloc.asm:7508:    panic("ipc_send not implemented in VM guest");
+obj/user/testpipe.asm:7636:    panic("ipc_recv not implemented in VM guest");
+obj/user/testpipe.asm:7662:    panic("ipc_send not implemented in VM guest");
+obj/user/testtime.asm:6568:    panic("ipc_recv not implemented in VM guest");
+obj/user/testtime.asm:6594:    panic("ipc_send not implemented in VM guest");
+fs/motd_guest:4:Welcome to the JOS guest kernel.
+user/vmm.c:11:// Map a region of file fd into the guest at guest physical address gpa.
+user/vmm.c:13:// The region to map in the guest should be memsz.  The region can span multiple pages.
+user/vmm.c:18:map_in_guest( envid_t guest, uintptr_t gpa, size_t memsz, 
+user/vmm.c:26:// mapping all valid segments into guest physical memory as appropriate.
+user/vmm.c:32:copy_guest_kern_gpa( envid_t guest, char* fname ) {
+.bochsrc.tmpl:5:memory: host=128, guest=128
+lib/ipc.c:55:    panic("ipc_recv not implemented in VM guest");
+lib/ipc.c:64:    panic("ipc_send not implemented in VM guest");

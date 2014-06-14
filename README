@@ -1,0 +1,23 @@
+    Submission Group ID: hw-shagupta
+    Submission by Ashish Tanwer (109347053) and Shashank Gupta (109079897)
+	This commit contains guest with file system and networking working
+
+
+For Netwoking Part ::
+
+First we were not receiving timer interrupt in the guest which is required for running network server. 
+So we fixed that.
+
+Next we implemented networking in HOST which includes e1000 device driver interfacing, running core network server enviroment with LWIP stack , and http web server over it.
+
+Same things we implemented in GUEST.
+
+Also we are copying each packet received by host to guest.
+Since guest also has its own tcp/ip stack and network server running, it will filter out the packet that is not destined for guest.
+
+We Are also attaching video with out commit.
+
+All steps are shown here::
+Video file::
+Virtualization.MP4
+
